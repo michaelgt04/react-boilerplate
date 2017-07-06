@@ -13,6 +13,6 @@ you can think of it as a tool that is very similar to npm to install your node p
 is maintained by Facebook. It does some awesome work behind the scenes to optimize installing your packages
 (notice how much quicker it installs), as well as creating a `yarn.lock` file to manage dependencies.
 
-This setup also has testing for you as well so that you can build up your skills Karma Enzyme testing!
+This setup also has testing for you as well so that you can build up your skills with Karma Enzyme testing!
 
 Have fun creating your side projects!
