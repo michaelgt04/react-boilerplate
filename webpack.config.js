@@ -5,7 +5,7 @@ module.exports = {
     path: './src/main.js'
   },
   output: {
-    path: './public',
+    path: '/public',
     filename: 'bundle.js'
   },
   module: {
@@ -20,9 +20,9 @@ module.exports = {
   stats: {
     colors: true
   },
-  devtool: 'eval-source-map',
+  devtool: 'inline-source-map',
   devServer: {
-    contentBase: './public',
+    contentBase: 'public/',
     inline: true,
     hot: true
   },
